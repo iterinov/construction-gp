@@ -1,5 +1,6 @@
 // src/app/page.tsx
-export default function Page() {
+// IMPORTANT : il faut un export par défaut valide
+const Page = () => {
   return (
     <main style={{ padding: 24 }}>
       <h1>Construction GP</h1>
@@ -7,3 +8,4 @@ export default function Page() {
     </main>
   )
 }
+export default Page
